@@ -15,10 +15,12 @@
 html, body {
 	margin:0;
 	padding: 0;
+	width: 100%;
 }
 
 body {
 	overflow-y: scroll;
+	background: url('/assets/fresh_snow.png') repeat;
 }
 
 
@@ -31,10 +33,12 @@ body {
 	border-bottom: 10px solid #78000C;
 	height: 200px;		
 
-	img {
+	a {
 		position: absolute;
+		z-index: 15;
 		left: 50%;
 		margin-left: -300px;
+		margin-top: 15px;
 		height: 163px;
 		width: 507px;
 	}
