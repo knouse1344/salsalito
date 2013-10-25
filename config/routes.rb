@@ -1,4 +1,8 @@
 Salsalito::Application.routes.draw do
+  get "welcome/index"
+  get "welcome/eat"
+  get "welcome/party"
+  get "welcome/savetheworld"
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
