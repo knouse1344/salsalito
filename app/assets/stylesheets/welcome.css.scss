@@ -1,3 +1,23 @@
 // Place all the styles related to the welcome controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+//font-family: 'Gudea', sans-serif;
+//font-family: 'Righteous', cursive;
+//font-family: 'Open Sans', sans-serif;
+
+
+#indexpage {
+	text-align: center;
+	padding-top: 40%;
+
+	a {
+		font-family:'Open Sans', sans-serif;
+		font-size: 2.5em;
+		font-weight: 800;
+		text-decoration: none;
+		text-transform: uppercase;
+		color: #aaa;
+		margin-left: 40px;
+	}
+}
