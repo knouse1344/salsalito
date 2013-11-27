@@ -2,7 +2,7 @@
 <html>
 <head>
   <title>Salsalito</title>
-  <link href='http://fonts.googleapis.com/css?family=Gudea:400,700|Righteous|Open+Sans:400,600,700,800' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Sarina|Gudea:400,700|Righteous|Open+Sans:400,600,700,800' rel='stylesheet' type='text/css'>
   <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
   <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
   <%= csrf_meta_tags %>
@@ -11,10 +11,8 @@
 	<div id="header">
 		<a href="/welcome/index"><img src="/assets/logo.png" alt="Salsalito! Eat. Party. Save The World." /></a>
 	</div>
-	<div id="container">
-		<%= yield %>
-	</div>
 
+		<%= yield %>
 
 	<div id="footer">
 		<div id="sun"> </div>
